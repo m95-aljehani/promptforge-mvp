@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/refine.ts": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    }
+  ]
+}
